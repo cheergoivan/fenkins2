@@ -18,7 +18,7 @@ public class WebHookController {
 
 	@Autowired
 	private IplayDeployTask iplayDeployTask;
-
+	
 	private static final ExecutorService executor = Executors.newSingleThreadExecutor();
 
 	@PostMapping

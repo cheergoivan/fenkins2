@@ -1,0 +1,31 @@
+projects:
+      - name: test1
+        git: 
+          url: https://gitee.com/cheegoivan/FeastBooking
+          credential:
+            username: test
+            password: test
+        build:
+          command: test
+          timeout: 10000
+        deployment:
+          command: test
+          timeout: 10000
+        email-notification:
+          trigger: ALWAYS
+          email-list: email1,email2
+      - name: test2
+        git: 
+          url: https://gitee.com/cheegoivan/FeastBooking
+          credential:
+            username: test
+            password: test
+        build:
+          command: test
+          timeout: 10000
+        deployment:
+          command: test
+          timeout: 10000
+        email-notification:
+          trigger: ALWAYS
+          email-list: email1,email2
